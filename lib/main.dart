@@ -16,3 +16,7 @@ Future<void> main() async {
   FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
   runApp(const MyApp());
 }
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+}
