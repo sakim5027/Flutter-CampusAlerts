@@ -39,11 +39,11 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final FCMService _fcmService = FCMService();
   static const _assets = {
-    'default': 'assets/images/default.png',
+    'default': 'assets/images/default.jpg',
     'promo': 'assets/images/promo.png',
   };
   String _statusText = 'Waiting for a cloud message';
-  String _imagePath = 'assets/images/default.png';
+  String _imagePath = 'assets/images/default.jpg';
   String _feedback = 'Initializing messaging...';
   String _lastHandler = 'None yet';
   String _lastMessageId = 'None yet';
